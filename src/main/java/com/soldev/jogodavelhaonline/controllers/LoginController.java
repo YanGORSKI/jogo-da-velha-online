@@ -30,7 +30,7 @@ public class LoginController {
 
         if (usuario != null && usuario.getPassword().equals(password)) {
             // Login bem-sucedido, redirecione para a página do lobby
-            return "redirect:/lobby";
+            return "redirect:lobby.html";
         } else {
             // Login falhou, adicione uma mensagem de erro ao modelo
             model.addAttribute("error", "Usuário não cadastrado ou senha incorreta");
