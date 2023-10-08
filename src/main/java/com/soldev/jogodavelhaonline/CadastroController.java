@@ -9,7 +9,7 @@ public class CadastroController {
 
     @GetMapping("/cadastro")
     public String cadastroPage() {
-        return "cadastro";
+        return "cadastroUsuario.html";
     }
 
     @PostMapping("/cadastrar")
