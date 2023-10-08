@@ -34,7 +34,7 @@ public class LoginController {
         } else {
             // Login falhou, adicione uma mensagem de erro ao modelo
             model.addAttribute("error", "Usuário não cadastrado ou senha incorreta");
-            return "/login";
+            return "redirect:/";
         }
     }
 }
