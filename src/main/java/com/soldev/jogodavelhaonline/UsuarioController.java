@@ -8,7 +8,7 @@ public class UsuarioController {
     @GetMapping("/login")
     public String loginPage() {
         // Lógica para login
-        return "index";
+        return "index.html";
     }
 
     @GetMapping("/cadastro")
