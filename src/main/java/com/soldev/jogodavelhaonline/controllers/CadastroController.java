@@ -1,4 +1,4 @@
-package com.soldev.jogodavelhaonline;
+package com.soldev.jogodavelhaonline.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
