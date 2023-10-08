@@ -15,4 +15,9 @@ public class UsuarioController {
     public String cadastroPage() {
         return "cadastro.html"; // Esta é a página de cadastro que você criará mais tarde.
     }
+
+    @GetMapping("/gravar")
+    public String gravar() {
+        return "index.html"; // Esta é a página de cadastro que você criará mais tarde.
+    }
 }
