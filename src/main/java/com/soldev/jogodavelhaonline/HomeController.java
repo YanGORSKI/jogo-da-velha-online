@@ -9,9 +9,4 @@ public class HomeController {
     public String home() {
         return "index";
     }
-
-    @GetMapping("/error")
-    public String error() {
-        return "error";
-    }
 }
