@@ -22,7 +22,7 @@ public class CadastroController {
 
     @GetMapping("/cadastro")
     public String cadastroPage() {
-        return "cadastro";
+        return "cadastro.html";
     }
 
     @PostMapping("/gravar")
