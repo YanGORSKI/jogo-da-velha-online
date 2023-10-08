@@ -1,8 +1,10 @@
+package com.soldev.jogodavelhaonline.services;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.soldev.jogodavelhaonline.repositories.UsuarioRepository
+import com.soldev.jogodavelhaonline.repositories.UsuarioRepository;
+import com.soldev.jogodavelhaonline.models.Usuario;
 
 @Service
 public class UsuarioService {
@@ -10,7 +12,7 @@ public class UsuarioService {
     private final UsuarioRepository usuarioRepository;
 
     @Autowired
-    public UsuarioService(UsuarioRepository usuarioRepository, BCryptPasswordEncoder passwordEncoder) {
+    public UsuarioService(UsuarioRepository usuarioRepository) {
         this.usuarioRepository = usuarioRepository;
     }
 
