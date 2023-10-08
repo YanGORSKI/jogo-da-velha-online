@@ -12,9 +12,9 @@ public class CadastroController {
         return "cadastroUsuario.html";
     }
 
-    @PostMapping("/cadastrar")
+    @PostMapping("/gravar")
     public String cadastrarUsuario() {
         // Adicione aqui a lógica para criar um novo usuário no banco de dados
-        return "redirect:/login"; // Redireciona de volta para a página de login após o cadastro bem-sucedido
+        return "redirect:/"; // Redireciona de volta para a página de login após o cadastro bem-sucedido
     }
 }
